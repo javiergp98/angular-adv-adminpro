@@ -8,9 +8,9 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { ProgressComponent } from './progress/progress.component';
-
-
-
+import { FormsModule } from '@angular/forms';
+import { ComponentsModule } from '../components/components.module';
+import { ChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -24,7 +24,9 @@ import { ProgressComponent } from './progress/progress.component';
     CommonModule,
     SharedModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    ComponentsModule
   ],
   exports: [
     DashboardComponent,
