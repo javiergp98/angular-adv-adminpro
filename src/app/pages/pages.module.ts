@@ -11,6 +11,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 import { ChartsModule } from 'ng2-charts';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ChartsModule } from 'ng2-charts';
     DashboardComponent,
     Grafica1Component,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +34,8 @@ import { ChartsModule } from 'ng2-charts';
     DashboardComponent,
     Grafica1Component,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
